@@ -1,4 +1,19 @@
-GUI Provided by UCSD MOOC Team, I coded the backend for this application.
+This is a Java based application.
+
+It is a text editor with following features:
+1) Flesh Index.
+2) Spell Suggest.
+3) Auto-Complete.
+4) Edit Distance Game.
+
+It uses the following:
+1) JavaFX for front end.
+2) Trie for Dictionary storage and spelling suggestions.
+3) JUnit for Testing.
+
+I have coded the backend of this application.
+Thanks to UCSD for providing the Java FX front-end.
+
 
 -----------------------------------------------------[ ACKNOWLEDGEMENTS]--
 
