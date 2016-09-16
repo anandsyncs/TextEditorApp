@@ -3,8 +3,6 @@ package document;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
-import java.sql.Time;
-import java.util.Timer;
 
 /** A class for timing the EfficientDocument and BasicDocument classes
  * 
@@ -35,9 +33,8 @@ public class DocumentBenchmarking {
 		// THe number of characters to start with. 
 		// You can play around with this.
 		int start = 50000;
-		
-		// TODO: Fill in the rest of this method so that it runs two loops
-		// and prints out timing results as described in the assignment 
+
+		// and prints out timing results as described in the assignment
 		// instructions and following the pseudocode below.
 		System.out.println("Size \t BasicDocument \t EfficientDocument");
 		for (int numToCheck = start; numToCheck < numSteps*increment + start; 
